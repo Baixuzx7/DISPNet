@@ -12,20 +12,34 @@ Code for Deep Unfolded Network with Intrinsic Supervision for Pan-sharpening
 
 ### File directory description
 ```
-ZeroSharpen-main 
-├── README.md
-├── LICENSE.txt
-├── main.py
-├── eval.py
-├── func.py
+DISPNet-main
 ├── data
-│  ├── ms
-│  │    └── 1.tif
-│  ├── pan
-│  │    └── 1.tif
-├── rnet.py
-├── tnet.py
-└── utils.py
+│  ├── TestFolder
+|  |  |── ms
+│  │     |└── 1.tif
+|  |  |── ms_label
+│  │     |└── 1.tif
+|  |  |── pan
+│  │     |└── 1.tif
+|  |  |── pan_label
+│  │     |└── 1.tif
+├── checkpoint
+│  ├── net
+│  │     |└── Best.pth
+│  ├── opt
+├── LICENSE.txt
+├── README.md
+├── config.py
+├── dataset.py
+├── eval.py
+├── modal.py
+├── model.py
+├── modules.py
+├── perstages.py
+├── process.py
+├── synthesis.py
+├── test.py
+├── train.py
 ```
 
 ### Contributor
@@ -34,19 +48,20 @@ Baixuzx7 @ wanghebaixu@gmail.com
 
 ### Copyright statement
 
-The project is signed under the MIT license, see the [LICENSE.txt](https://github.com/Baixuzx7/ZeroSharpen/blob/main/LICENSE.txt)
+The project is signed under the MIT license, see the [LICENSE.txt](https://github.com/Baixuzx7/DISPNet/main/LICENSE.txt)
 
 ### Architecture of Zero-Sharpen
+![characteristic](image/attribute.jpg)
 ![overview](image/workflow.jpg)
 
 ### Reference
 ```
-@article{wang2023zero,
-  title={Zero-Sharpen: A universal pansharpening method across satellites for reducing scale-variance gap via zero-shot variation},
-  author={Wang, Hebaixu and Zhang, Hao and Tian, Xin and Ma, Jiayi},
-  journal={Information Fusion},
-  pages={102003},
-  year={2023},
-  publisher={Elsevier}
+@inproceeding{,
+  title={ Deep Unfolded Network with Intrinsic Supervision for Pan-sharpening},
+  author={ },
+  journal={ },
+  pages={ },
+  year={2024},
+  publisher={ }
 }
 ```
