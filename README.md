@@ -50,7 +50,7 @@ Baixuzx7 @ wanghebaixu@gmail.com
 
 The project is signed under the MIT license, see the [LICENSE.txt](https://github.com/Baixuzx7/DISPNet/main/LICENSE.txt)
 
-### Architecture of Zero-Sharpen
+### Architecture of DISPNet
 ![characteristic](image/attribute.jpg)
 ![overview](image/workflow.jpg)
 
