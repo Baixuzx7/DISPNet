@@ -37,7 +37,7 @@ Baixuzx7 @ wanghebaixu@gmail.com
 The project is signed under the MIT license, see the [LICENSE.txt](https://github.com/Baixuzx7/ZeroSharpen/blob/main/LICENSE.txt)
 
 ### Architecture of Zero-Sharpen
-![overview](imgs/architecture.jpg)
+![overview](image/workflow.jpg)
 
 ### Reference
 ```
