@@ -56,12 +56,13 @@ The project is signed under the MIT license, see the [LICENSE.txt](https://githu
 
 ### Reference
 ```
-@inproceeding{,
-  title={ Deep Unfolded Network with Intrinsic Supervision for Pan-sharpening},
-  author={ },
-  journal={ },
-  pages={ },
-  year={2024},
-  publisher={ }
+@inproceedings{wang2024deep,
+  title={Deep Unfolded Network with Intrinsic Supervision for Pan-Sharpening},
+  author={Wang, Hebaixu and Gong, Meiqi and Mei, Xiaoguang and Zhang, Hao and Ma, Jiayi},
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  volume={38},
+  number={6},
+  pages={5419--5426},
+  year={2024}
 }
 ```
